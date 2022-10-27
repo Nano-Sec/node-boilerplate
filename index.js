@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 3000
+const Comments = require("./models/comment");
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
